@@ -47,7 +47,7 @@ Asegúrate de tener Node.js y npm instalados en tu sistema.
 
 ## Autor
 
-[LionDev](https://github.com/Lion1012/blogAngel)
+[LionDev](https://github.com/Lion1012)
 
 ## Agradecimientos
 
