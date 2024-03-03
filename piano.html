@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.43/Tone.js"
+        integrity="sha512-n7wMz32h+9PqvKp0AJ++fkZxe9wP7XFiN2sCgM/Kp+8BgfNzMjSofcC6zSRAr4+WKPnqv1k8SjbgVW5E5K5n5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Angel | Web</title>
+</head>
+<body id="body">
+    
+    <body>
+        <header class="bg-white">
+          <nav class="subnav navbar navbar-expand-sm navbar-light">
+          </nav>
+          <div class="container">
+            <div class="logo pb-3 text-center">
+              <a href="index.html"><img src="img/logo.png" alt="" class="h-100" /></a>
+            </div>
+          </div>
+          <hr />
+          <div class="container">
+            <div class="logo pb-3 text-center">
+              <br>
+              <p> Bienvenidos a mi página blog de ejemplo </p>
+            </div>
+          </div>
+          </div>
+          <hr />
+          <div class="container">
+            <nav id="navbar" class="text-uppercase pt-1 pb-3 w-50 m-auto">
+              <div class="container">
+                <div class="row text-center font-weight-light">
+                  <div class="col">
+                    <a href="index.html" class="text-dark font-weight-bold">Home</a>
+                  </div>
+                  <div class="col">
+                    <a href="motivacion.html" class="text-dark font-weight-bold"
+                      >Motivación</a
+                    >
+                  </div>
+                  <div class="col">
+                    <a href="galeria.html" class="text-dark font-weight-bold"
+                      >Galeria</a
+                    >
+                  </div>
+                  <div class="col">
+                    <a href="contacto.html" class="text-dark font-weight-bold"
+                      >Contacto</a
+                    >
+                  </div>
+                  <div class="col">
+                    <a href="piano.html" class="text-dark font-weight-bold"
+                      >Piano</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </header>
+        <h1>Pulsa las teclas para tocar</h1>
+        <div class="key set">
+            <button id="c4" class="white e">S</button>
+            <button id="c#4" class="black ds" style="margin:0 0 0 -1em;">E</button>
+            <button id="d4" class="white d" style="margin:0 0 0 -1em;">D</button>
+            <button id="d#4" class="black cs" style="margin:0 0 0 -1em;">R</button>
+            <button id="e4" class="white c" style="margin:0 0 0 -1em;">F</button>
+            <button id="f4" class="white b">G</button>
+            <button id="f#4" class="black as" style="margin:0 0 0 -1em;">Y</button>
+            <button id="g4" class="white a" style="margin:0 0 0 -1em;">H</button>
+            <button id="g#4" class="black gs" style="margin:0 0 0 -1em;">U</button>
+            <button id="a4" class="white g" style="margin:0 0 0 -1em;">J</button>
+            <button id="a#4" class="black fs" style="margin:0 0 0 -1em;">I</button>
+            <button id="b4" class="white c" style="margin:0 0 0 -1em;">K</button>
+            <button id="c5" class="white b">L</button>
+        </div>
+    
+        <footer class="pt-5 pb-2 small">
+          <div class="container">
+            <div class="row">
+              <div class="col-3">
+                <p>
+                  Lion Dev &copy; 2024
+                </p>
+              </div>
+              <div class="col-9 text-right">
+                <a href="https://github.com/Lion1012" class="text-dark">
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAWJJREFUSEu1lYtNxEAMRH2dQCVAJUAlQCVwlQCVQCeQd9pZzf6SzUlZKYqS2B7P+JNTHHxOB8ePGYD7iLiLCO5cv+n6iojv5R334VkDuImI9xR0LQaADwm0sRsBvCyWrzvkA+QjIt5qnx7AU8p8R/xsSlIFSA2ALD/JHG2fl+dHY0OmHOw4BKQOMFZ98Ml1qQE+TXMoY6yACt57dkmxuxUnB6ilcYAtuWgG/HUo+oXFGkA22oqeJJO0ku5SCwfwLAqaEwCYuLxkT4IFABmoeNlgMjhm3QSdgQNcw8D9c/IO4BSvAfgztrlBHKCe3j1dNPR1AAYFFn6ayay+UzMfxNU2VSfgxICxQQHQ9uSdD5tL6rhFg4xWhTakVoDWhgeqh6vJvm5TGUjPLXl6GxeW1C6frXUtec61Y1pwvtKb4CMGQvcfTo+NGJBEsUFnGLiNptsLzPfR+6LRZv7JO7ZFa3o4wD9Ze1gZdO/y+wAAAABJRU5ErkJggg=="/>
+                  </a>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <script type="module" src="js/piano.js"></script>
+</body>
+
+
+
+</html>
