@@ -40,6 +40,11 @@ Asegúrate de tener Node.js y npm instalados en tu sistema.
 4. Entra en Piano para poder utilizar mediante las teclas que ves en pantalla sus respectivas notas asociadas.
    
 
+## Uso de Ux
+- Ley de Miller, Intentamos que el menu no exceda los 7 elementos, en este caso hay 5.
+- Ley de Jakob, Utilizo patrones familiares, ya que sigue los patrones base de un blog, ademas de que el menu , tiene un patron muy utilizado.
+- Ley de Tesler , Invierto más tiempo en el desarrollo, explicando y exponiendo las funcionalidades de forma simple, ej: los botones del equipo que usa la funcion de pokeApi, llama 6 veces a la api, con 1 solo botón para mostrar los 6 pokemon, o pongo de forma gráfica en el piano que teclas del teclado usar para que sea fácil.
+
 ## Errores Conocidos
 
 - Puede haber problemas de conexión con la PokeAPI ya que tarda un rato en recorrer los 1025 pokemon.
